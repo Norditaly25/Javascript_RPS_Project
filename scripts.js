@@ -20,4 +20,19 @@ function getComputerChoice() {
         }
     
     }
-console.log(getComputerChoice());
+ console.log(getComputerChoice());
+
+ // Create a new function named getHumanChoice
+ // Use prompt inside the function to get the user's input (rock, paper, scissors)
+ // convert the input to lowercase to make it case insesitive
+ // return the input given
+ 
+ function getHumanChoice() {
+    let choice = prompt("Enter rock, paper, or scissors");
+    return choice.toLowerCase();
+ }
+ console.log(getHumanChoice());
+
+let humanScore = 0;
+let computerScore = 0;
+
